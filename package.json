@@ -1,6 +1,6 @@
 {
 	"name": "linkcircle",
-	"version": "0.0.0",
+	"version": "2.0.0",
 	"description": "an easy client-side webring creator",
 	"files": [
 		"dist"
