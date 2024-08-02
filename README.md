@@ -1,6 +1,8 @@
 # Linkcircle
 
-Really easy webring creator that runs in your browser. All you need to know is HTML; no messing with a script you didn't write.
+Really easy webring creator that runs in your browser. All you need to know is HTML.
+
+[What's new in v2](./docs/v2-changes.md)
 
 ## Getting started
 
@@ -33,9 +35,7 @@ https://you.example.com/my-webring.html
 		<!-- ... -->
 	</head>
 	<body>
-		<a href="https://cool-dude.example.com" data-slug="cooldude">
-			Cool dude
-		</a>
+		<a href="https://dude.example.com" data-slug="cooldude">Cool dude</a>
 		<a href="https://somebody.example.com" data-slug="somebody">Somebody</a>
 
 		<!-- This also works! -->

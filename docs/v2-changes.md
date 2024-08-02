@@ -66,25 +66,25 @@ Change your HTML and add slugs:
 ```diff
 - <ol data-linkcircle>
 + <ol>
--  <li><a href="https://member.example.com">Some member</a></li>
-+  <li><a href="https://member.example.com" data-slug="member">Some member</a></li>
--  <li><a href="https://cool.example.com">Cool website</a></li>
-+  <li><a href="https://cool.example.com" data-slug="cool">Cool website</a></li>
--  <li><a href="https://awesome.example.com">Awesome website</a></li>
-+  <li><a href="https://awesome.example.com" data-slug="awesome">Awesome website</a></li>
+-   <li><a href="https://member.example.com">Some member</a></li>
++   <li><a href="https://member.example.com" data-slug="member">Some member</a></li>
+-   <li><a href="https://cool.example.com">Cool website</a></li>
++   <li><a href="https://cool.example.com" data-slug="cool">Cool website</a></li>
+-   <li><a href="https://awesome.example.com">Awesome website</a></li>
++   <li><a href="https://awesome.example.com" data-slug="awesome">Awesome website</a></li>
   </ol>
 ```
 
 If you already had slugs, update them too:
 
 ```diff
--  <li><a href="https://member.example.com" data-lc-slug="member">Some member</a></li>
-+  <li><a href="https://member.example.com" data-slug="member">Some member</a></li>
+- <li><a href="https://member.example.com" data-lc-slug="member">Some member</a></li>
++ <li><a href="https://member.example.com" data-slug="member">Some member</a></li>
 ```
 
 Have your members change their links:
 
-> **Note**
+> [!Note]
 > This is obviously a huge ask, so I will be looking into solutions to make this not as terrible.
 
 ```diff
