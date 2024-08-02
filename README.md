@@ -13,11 +13,11 @@ Download the script and put it as reasonably high as you can on your webring's p
 ```html
 https://you.example.com/my-webring.html
 <html>
-	<head>
-		<script src="/linkcircle.js"></script>
-		<!-- ... -->
-	</head>
-	<body></body>
+  <head>
+    <script src="/linkcircle.js"></script>
+    <!-- ... -->
+  </head>
+  <body></body>
 </html>
 ```
 
@@ -30,20 +30,20 @@ You can put the links anywhere. Linkcircle does not care what they are, where th
 ```html
 https://you.example.com/my-webring.html
 <html>
-	<head>
-		<script src="/linkcircle.js"></script>
-		<!-- ... -->
-	</head>
-	<body>
-		<a href="https://dude.example.com" data-slug="cooldude">Cool dude</a>
-		<a href="https://somebody.example.com" data-slug="somebody">Somebody</a>
+  <head>
+    <script src="/linkcircle.js"></script>
+    <!-- ... -->
+  </head>
+  <body>
+    <a href="https://dude.example.com" data-slug="cooldude">Cool dude</a>
+    <a href="https://somebody.example.com" data-slug="somebody">Somebody</a>
 
-		<!-- This also works! -->
-		<custom-link
-			href="https://dev.example.com"
-			data-slug="dev"
-		></custom-link>
-	</body>
+    <!-- This also works! -->
+    <custom-link
+      href="https://dev.example.com"
+      data-slug="dev"
+    ></custom-link>
+  </body>
 </html>
 ```
 
@@ -70,10 +70,10 @@ You can set options by adding attributes to the script tag. They internally pars
 ```html
 https://you.example.com/my-webring.html
 <script
-	src="/linkcircle.js"
-	data-cache-lifespan="0"
-	data-next-name='"proceed"'
-	data-show-debug="true"
+  src="/linkcircle.js"
+  data-cache-lifespan="0"
+  data-next-name='"proceed"'
+  data-show-debug="true"
 ></script>
 ```
 

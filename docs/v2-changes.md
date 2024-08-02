@@ -15,24 +15,24 @@ v1 also had a slugs system, but it was optional. It's mandatory in v2.
 ```html
 <!-- v1 -->
 <ol data-linkcircle>
-	<li><a href="https://member.example.com">Some member</a></li>
-	<li><a href="https://cool.example.com">Cool website</a></li>
-	<li><a href="https://awesome.example.com">Awesome website</a></li>
+  <li><a href="https://member.example.com">Some member</a></li>
+  <li><a href="https://cool.example.com">Cool website</a></li>
+  <li><a href="https://awesome.example.com">Awesome website</a></li>
 </ol>
 
 <!-- v2 -->
 <ol>
-	<li>
-		<a href="https://member.example.com" data-slug="member">Some member</a>
-	</li>
-	<li>
-		<a href="https://cool.example.com" data-slug="cool">Cool website</a>
-	</li>
-	<li>
-		<a href="https://awesome.example.com" data-slug="awesome">
-			Awesome website
-		</a>
-	</li>
+  <li>
+    <a href="https://member.example.com" data-slug="member">Some member</a>
+  </li>
+  <li>
+    <a href="https://cool.example.com" data-slug="cool">Cool website</a>
+  </li>
+  <li>
+    <a href="https://awesome.example.com" data-slug="awesome">
+      Awesome website
+    </a>
+  </li>
 </ol>
 ```
 
