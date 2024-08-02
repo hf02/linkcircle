@@ -1,0 +1,34 @@
+{
+	"name": "linkcircle",
+	"version": "0.0.0",
+	"description": "an easy client-side webring creator",
+	"files": [
+		"dist"
+	],
+	"module": "./dist/linkcircle-module.js",
+	"browser": "./dist/linkcircle.js",
+	"types": "./src/main.ts",
+	"exports": {
+		".": {
+			"import": "./dist/linkcircle-module.js"
+		}
+	},
+	"scripts": {
+		"dev": "rollup -c -w",
+		"build": "rollup -c"
+	},
+	"keywords": [],
+	"author": "dabric.xyz",
+	"license": "MIT",
+	"type": "module",
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^26.0.1",
+		"@rollup/plugin-node-resolve": "^15.2.3",
+		"@rollup/plugin-typescript": "^11.1.6",
+		"rollup": "^4.19.2",
+		"rollup-plugin-uglify": "^6.0.4",
+		"tslib": "^2.6.3",
+		"typescript": "^5.5.3",
+		"vite": "^5.3.3"
+	}
+}
