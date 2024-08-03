@@ -2,13 +2,13 @@
 
 Really easy webring creator that runs in your browser. All you need to know is HTML.
 
-[What's new in v2](./docs/v2-changes.md)
+[Download latest release](https://github.com/hf02/linkcircle/releases/latest/download/linkcircle.js) | [What's new in v2](./docs/v2-changes.md)
 
 ## Getting started
 
 ### Step 1 - Add the script to your page
 
-Download the script and put it as reasonably high as you can on your webring's page. It being at the top is critical to its performance.
+[Download the script](https://github.com/hf02/linkcircle/releases/latest/download/linkcircle.js) and put it as reasonably high as you can on your webring's page. It being at the top is critical to its performance.
 
 ```html
 https://you.example.com/my-webring.html
