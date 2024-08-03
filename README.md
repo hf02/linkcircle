@@ -23,33 +23,27 @@ https://you.example.com/my-webring.html
 
 ### Step 2 - Add your members
 
-List your members anywhere on your page as links in your HTML. Then, make a slug for each member in a `data-slug=""`. A slug is a unique code for each member, and they'll use that code when making their widget.
+Linkcircle looks in your HTML for members. There's no touching JavaScript.
 
-You can put the links anywhere. Linkcircle does not care what they are, where they are, or what more they have. They just have to have the `href` and `data-slug`.
+First, list your members anywhere on your page as links in your HTML.
 
 ```html
-https://you.example.com/my-webring.html
-<html>
-  <head>
-    <script src="/linkcircle.js"></script>
-    <!-- ... -->
-  </head>
-  <body>
-    <a href="https://dude.example.com" data-slug="cooldude">Cool dude</a>
-    <a href="https://somebody.example.com" data-slug="somebody">Somebody</a>
+<a href="https://dude.example.com">Cool dude</a>
+<a href="https://somebody.example.com">Somebody</a>
+```
 
-    <!-- This also works! -->
-    <custom-link
-      href="https://dev.example.com"
-      data-slug="dev"
-    ></custom-link>
-  </body>
-</html>
+Then, make a unique code for each member, called a slug, in a `data-slug=""`. Make sure your members know their slug so they can set up their widget later.
+
+```html
+<a href="https://dude.example.com" data-slug="cooldude">Cool dude</a>
+<a href="https://somebody.example.com" data-slug="somebody">Somebody</a>
 ```
 
 ### Step 3 - You got a webring!
 
-That's all the setup you have to do. Members can make their own widgets by linking your page like so:
+That's all the setup you have to do! Edit your HTML to add or remove members.
+
+Members can make their own widgets by linking your page using their slug like so:
 
 ```html
 https://dude.example.com/
@@ -61,7 +55,7 @@ https://dude.example.com/
 
 ## Documentation
 
-**More in-depth and technical**. You likely won't have to go into here if you're just casually using Linkcircle.
+**This section is more in-depth and technical**. You likely won't have to go into here if you're just casually using Linkcircle.
 
 ### Options
 
