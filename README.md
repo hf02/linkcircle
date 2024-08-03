@@ -1,6 +1,6 @@
 # Linkcircle
 
-Really easy webring creator that runs in your browser. All you need to know is HTML.
+Make a webring without leaving your HTML! A really easy webring script for the personal web. 
 
 [Download latest release](https://github.com/hf02/linkcircle/releases/latest/download/linkcircle.js) | [What's new in v2](./docs/v2-changes.md)
 
