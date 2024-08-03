@@ -52,7 +52,7 @@ https://you.example.com/my-webring.html
 That's all the setup you have to do. Members can make their own widgets by linking your page like so:
 
 ```html
-https://cool-dude.example.com/
+https://dude.example.com/
 <a href="https://you.example.com/my-webring.html?cooldude-previous">Previous</a>
 <a href="https://you.example.com/my-webring.html?cooldude-random">Random</a>
 <a href="https://you.example.com/my-webring.html">Homepage</a>
