@@ -2,7 +2,7 @@
 
 Make a webring without leaving your HTML! A really easy webring script for the personal web. 
 
-[Download latest release](https://github.com/hf02/linkcircle/releases/latest/download/linkcircle.js) | [What's new in v2](./docs/v2-changes.md)
+[Guide](https://dabric.xyz/script/linkcircle) | [Download latest release](https://github.com/hf02/linkcircle/releases/latest/download/linkcircle.js) | [What's new in v2](./docs/v2-changes.md)
 
 ## Getting started
 
